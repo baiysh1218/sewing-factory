@@ -1,0 +1,8 @@
+.design_second_container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.design_second_container .coope_second_left_block ul li {
+  list-style-type: disc;
+}

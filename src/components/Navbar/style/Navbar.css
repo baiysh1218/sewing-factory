@@ -1,0 +1,133 @@
+#top {
+  width: 100%;
+  height: 80px;
+  background-color: #fff8f5;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff8f5af;
+  backdrop-filter: blur(7px);
+  z-index: 100;
+}
+
+.nav_wrapper,
+.nav_wrapper ul,
+.nav_links,
+.current_language {
+  display: flex;
+}
+
+.nav_wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_wrapper ul {
+  width: 50%;
+  justify-content: space-between;
+}
+
+.nav_wrapper ul li {
+  position: relative;
+  border-top: 4px solid transparent;
+  padding-top: 25px;
+  top: -15px;
+}
+
+.nav_wrapper ul li.active {
+  border-top: 4px solid #d14e40;
+}
+
+.nav_logo {
+  position: relative;
+  cursor: pointer;
+  width: 15%;
+}
+
+.nav_logo::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 1px;
+  background-color: #edb4ad;
+  left: 106%;
+  top: 10%;
+}
+
+.nav_links a,
+.nav_wrapper ul li {
+  color: #586272;
+  cursor: pointer;
+}
+
+.nav_wrapper ul li:hover {
+  color: #d14e40;
+}
+
+.nav_links {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_links a {
+  display: flex;
+  align-items: center;
+}
+
+.nav_links a span {
+  margin-left: 10px;
+}
+
+.nav_language .current_language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav_language .current_language svg {
+  max-width: 45px;
+  width: 100%;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.language_change_drop_down {
+  position: absolute;
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.language_change_drop_down.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.language_change_drop_down ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90px;
+  height: 75px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.language_change_drop_down ul li {
+  cursor: pointer;
+}
+
+.nav_language_arrow {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,21 @@
+.second_wrapper_blocks {
+  box-sizing: content-box;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  background: #fff8f5;
+  padding: 88px 16px;
+  align-items: center;
+}
+
+.second_wrapper_blocks b {
+  font-size: 32px;
+  color: #d14e40;
+}
+
+.second_wrapper_blocks span {
+  text-align: center;
+  font-size: 16px;
+  color: #4a5567;
+}

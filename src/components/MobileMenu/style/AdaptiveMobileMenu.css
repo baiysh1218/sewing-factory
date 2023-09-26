@@ -1,0 +1,20 @@
+@media screen and (max-width: 1140px) {
+  .mobile_menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mobile_menu {
+    display: none;
+  }
+  .mobile_menu_icons {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mobile_nav_item {
+    width: 25px;
+  }
+}

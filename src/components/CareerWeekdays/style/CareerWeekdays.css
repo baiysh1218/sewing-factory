@@ -1,0 +1,15 @@
+.career_weekdays_content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.career_weekdays_content_wrapper img {
+  width: 18.98%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.career_weekdays_content_wrapper img:hover {
+  opacity: 0.5;
+}

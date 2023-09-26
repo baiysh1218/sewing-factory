@@ -1,0 +1,44 @@
+main {
+  background-color: #fff8f5;
+  min-height: 700px;
+  position: relative;
+  z-index: 3;
+}
+.main_wrapper {
+  display: flex;
+  min-height: 450px;
+}
+
+.main_right_block {
+  position: absolute;
+  right: 22%;
+  width: 70%;
+}
+.main_right_block svg {
+  position: absolute;
+  width: 121%;
+  height: auto;
+}
+
+.main_left_block {
+  position: relative;
+  align-self: flex-end;
+  z-index: 2;
+  width: 36%;
+}
+
+.main_left_block h1 {
+  width: 111%;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.main_left_block h1 b {
+  font-weight: 900;
+  color: #d14e40;
+}
+
+.main_left_block p {
+  width: 111%;
+  color: #4a5567;
+}

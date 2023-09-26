@@ -1,0 +1,45 @@
+.guarantee_container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.guarantee_head h3 {
+  font-size: 28px;
+}
+
+.guarantee_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.guarantee_item {
+  max-width: 269px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guarantee_item svg {
+  border-radius: 12px;
+  background: linear-gradient(135deg, #cf4436 0%, #db7469 100%);
+  width: 110px;
+  height: 110px;
+  padding: 26px 30px;
+  margin-bottom: 23px;
+}
+
+.guarantee_item b {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.guarantee_item ul li {
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.guarantee_item ul li::before {
+  content: "-   ";
+}

@@ -1,0 +1,22 @@
+.production_wrapper {
+  background-color: #fff8f5;
+}
+
+.production_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.production_left_block {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.production_left_block h2 {
+  font-size: 38px;
+  color: #d14e40;
+  font-weight: 900;
+}

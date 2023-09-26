@@ -1,0 +1,17 @@
+.button_home_page {
+  margin-top: 30px;
+  background: linear-gradient(103deg, #cf4436 0%, #db7469 100%);
+  padding: 11px 32.465px 12px 32.665px;
+  display: inline-flex;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button_home_page:hover {
+  background: transparent;
+  border: 2px solid #cf4436;
+  color: #cf4436;
+}

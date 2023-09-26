@@ -1,0 +1,21 @@
+.design_center_wrapper {
+  background-color: #fff8f5;
+}
+.design_center_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design_main_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.design_main_left h2 {
+  font-size: 38px;
+  font-weight: 900;
+  color: #d14e40;
+}

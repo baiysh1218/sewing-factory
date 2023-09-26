@@ -1,0 +1,50 @@
+footer {
+  display: flex;
+  height: 500px;
+  padding: 70px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_left_block {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer_left_block p {
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.footer_left_block p b {
+  font-size: 38px;
+  font-weight: 700;
+  color: #d14e40;
+}
+
+.footer_left_block a svg {
+  width: 38px;
+  height: 38px;
+}
+
+.footer_left_block a {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer_links button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}

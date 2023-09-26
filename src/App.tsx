@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// components start
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import MobileMenu from "./components/MobileMenu/MobileMenu";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import MainRoutes from "./routes/MainRoutes";
+// components end
 
-function App() {
+// hooks start
+// hooks end
+
+// redux start
+// redux end
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <MainRoutes />
+      <Footer />
+      <MobileMenu />
+    </>
   );
-}
+};
 
 export default App;

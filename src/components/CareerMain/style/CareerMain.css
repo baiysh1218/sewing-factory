@@ -1,0 +1,23 @@
+.career_main_wrapper {
+  background-color: #fff8f5;
+}
+.container_career_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 0;
+}
+
+.career_left_block {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.career_left_block h2 {
+  font-size: 38px;
+  font-weight: 900;
+  color: #d14e40;
+}

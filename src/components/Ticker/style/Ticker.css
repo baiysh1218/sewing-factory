@@ -1,0 +1,29 @@
+@keyframes ticker-kf {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-1000vw);
+  }
+}
+
+.ticker_wrapper {
+  margin: 63px 0;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+}
+
+.flex_ticker {
+  display: flex;
+  animation: ticker-kf 100s linear infinite;
+  animation-delay: 10s;
+  align-items: center;
+}
+
+.flex_ticker img {
+  min-width: 200px;
+  height: auto;
+  margin-right: 30px;
+}

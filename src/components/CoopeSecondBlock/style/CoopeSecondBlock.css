@@ -1,0 +1,44 @@
+.coope_second_item {
+  margin: 48px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coope_second_item img {
+  width: 474px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  box-shadow: -10px 0px 10px 0px rgba(26, 32, 44, 0.15);
+}
+
+.coope_second_left_block {
+  width: 69%;
+  padding: 65px;
+  padding-right: 210px;
+  background-color: #fff8f5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+}
+
+.coope_second_left_block h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.coope_second_item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.coope_second_item:nth-child(2) img {
+  left: 0;
+  box-shadow: 10px 0px 10px 0px rgba(26, 32, 44, 0.15);
+}
+.coope_second_item:nth-child(2) .coope_second_left_block {
+  padding-left: 210px;
+  padding-right: 65px;
+}

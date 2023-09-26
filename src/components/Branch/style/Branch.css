@@ -1,0 +1,30 @@
+.branch_wrapper {
+  background-color: #fff8f5;
+  padding: 70px 0;
+}
+.branch_container {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.branch_header h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.branch_content_block {
+  display: flex;
+  justify-content: space-between;
+}
+.branch_item {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  gap: 19px;
+}
+
+.branch_item b {
+  font-size: 24px;
+  font-weight: 500;
+}
